@@ -1,0 +1,46 @@
+// Imports.
+@import 'components/reset.scss';
+
+// Colors.
+$black : #000;
+$blue : #00f;
+$red : #f00;
+$green : #0f0;
+$orange : #f90;
+
+// Front End modifications.
+body{
+	////////////////
+	// Main style //
+	////////////////
+	
+	//border: 1px solid $black;
+
+	////////////////////////
+	// Component defaults //
+	////////////////////////
+
+	form{
+		width: 300px;
+	}
+
+	/////////////////////
+	// Website Wrapper //
+	/////////////////////
+
+	.wrapper{
+		//	Button div.
+		.buttons{
+			width: 300px;
+			height: 100px;
+			border: 1px solid lighten($red, 20%);
+		}
+		
+		// Form div.
+		.forma{
+			width: 300px;
+			height: 100px;
+			border: 1px solid lighten($orange, 20%);
+		}
+	}
+}
