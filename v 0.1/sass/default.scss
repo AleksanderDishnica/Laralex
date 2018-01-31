@@ -1,0 +1,11 @@
+@import 'components/reset.scss';
+
+body{
+	border: 1px solid black;
+
+	form{
+		width: 300px;
+		height: 150px;
+		border: 1px solid orange;
+	}
+}
